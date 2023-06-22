@@ -10,8 +10,7 @@ from sklearn.metrics import classification_report, confusion_matrix, accuracy_sc
 from sklearn import preprocessing
 import pandas as pd
 
-df = pd.read_csv("C:/Users/Nils Ole Breuer/Desktop/AI/master thesis/sage-master/sage/data/ADNIMERGE.csv",
-                 index_col=False)
+df = pd.read_csv()
 
 dat = df[["AGE", "PTGENDER", "PTEDUCAT", "APOE4", "FDG", "ABETA", "PTAU", "DX"]]
 

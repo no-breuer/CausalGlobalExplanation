@@ -3,10 +3,7 @@ from scipy.stats import bernoulli
 
 '''
 This code implements the SCM. 
-Variables {V1,V2,V3} are generated.
-V1 <- U -> V3, 
-V1 -> V2 <- V3 
-{V1,V2,V3} -> Y  
+
 '''
 
 # Fix the random seed
