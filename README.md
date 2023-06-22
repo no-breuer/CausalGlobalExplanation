@@ -1,11 +1,11 @@
 # CausalGlobalExplanation
 
 This is the corresponding code to the paper *Causal Global Feature Importance: Using Causal
-Knowledge to Explain Model Predictions*. This this work we added a causal framework the the method *SAGE* a global explanation method for feature importance by Covert et al. (2020).
+Knowledge to Explain Model Predictions*. In this work, we added a causal framework the method *SAGE* a global explanation method for feature importance by Covert et al. (2020). Therefore, the implementation of the *SAGE* framework is used in this repository.
 
 ## Usage
 
-To use the causal framework and compare it to classic *SAGE* one has to train a ML model on a dataset of choice and set up a causal imputer. For the causal imputer the causal ordering of the features and knowledge about confounding or interaction is necessary.
+To use the causal framework and compare it to classic *SAGE* one has to train an ML model on a dataset of choice and set up a causal imputer. For the causal imputer the causal ordering of the features and knowledge about confounding or interaction is necessary.
 
 ```
 # Initialize data
