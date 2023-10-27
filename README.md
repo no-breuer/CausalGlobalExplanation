@@ -1,6 +1,6 @@
 # Causally-Aware Global Explanation
 
-This is the corresponding code to the paper * Causally-Aware Shapley value for Global Explanation of Black-box
+This is the corresponding code to the paper *Causally-Aware Shapley value for Global Explanation of Black-box
 Predictive Models*.
 
 In response to the ever-increasing influence, Artificial Intelligence plays in our lives and the associated need to understand it the field of eXplainable Artificial Intelligence (XAI) has become very popular in recent years. One way to explain AI models is to elucidate the predictive importance of features in a global sense. Shapley values offer the possibility, based on a well-established game theoretic approach to quantify the feature importance. Previous global explanation meth-
